@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 85vh;
+}
+
+.row-f {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: #0F0E0E;
+  color: rgb(200, 200, 200);
+}
+
+.minha-coluna {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1 {
+  background-image: url("/img/relogio2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(200, 200, 200);
+}
+
+.row2, .row4, .row6 {
+  background-color: rgb(200, 200, 200);
+  color: rgb(30, 30, 30);
+}
+
+.row3 {
+  background-color: #0F0E0E;
+  color: rgb(200, 200, 200);
+}
+
+.row5 {
+  background-image: url("/img/relogio3.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(200, 200, 200);
+}
+
+.logo {
+  padding: 5vh;
+  font-size: 4vh;font-weight: bold;
+}
+
+.headline {
+  font-size: 7vh;
+  font-weight: bold;
+}
+
+.frase-headline {
+  font-size: 3vh;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 4vh;
+}
+
+.nome, .email {
+  width: 45vh;
+  background-color: rgb(200, 200, 200);
+  border: 2px solid rgb(180, 180, 180);
+  text-align: start;
+  padding-left: 2vh;
+}
+
+.botao {
+  width: 35vh;
+  background-color: rgb(9, 169, 115);
+  border: none;
+}
+
+.nome, .email, .botao {
+  height: 7vh;
+  border-radius: 4px;
+}
+
+.lista-costumer {
+  display: flex;
+  flex-direction: row;
+  gap: 5vh;
+  padding-top: 5vh;
+}
+
+.itens-lista-costumer {
+  font-size: 2.5vh;
+  padding-right: 3vh;
+  padding-left: 3vh;
+}
+
+.sem-ponto {
+  list-style: none;
+}
+
+
+.minha-coluna2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.titulo-modelo, .titulo-comentarios, .titulo-vantagens, .titulo-sobre, .titulo-contato {
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.frase-sobre, .frase-vantagens, .frase-comentarios, .frase-contato {
+  font-size: 2vh;
+}
+
+.img-features {
+  height: 15vh;
+  width: 15vh;
+  border-radius: 50%;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-features {
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.coluna5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coluna5-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nome-ceo {
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.cargo-ceo {
+  font-size: 2vh;
+}
+
+.img-ceo {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+}
+
+.img {
+  height: 300px;
+  width: 500px;
+}
+
+.logo-footer {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 2vh;
+}
